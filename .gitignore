@@ -1,0 +1,36 @@
+@"
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets / environment files
+.env
+.env.*
+!.env.example
+
+# Hugging Face / model caches
+.cache/
+.huggingface/
+huggingface/
+"@ | Set-Content .gitignore
